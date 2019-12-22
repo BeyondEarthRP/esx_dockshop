@@ -4,7 +4,7 @@ Config.MarkerColor                = { r = 120, g = 120, b = 240 }
 Config.EnablePlayerManagement     = false -- If set to true, you need esx_addonaccount, esx_billing and esx_society
 Config.EnablePvCommand            = true
 Config.EnableOwnedVehicles        = true
-Config.EnableSocietyOwnedVehicles = false
+Config.EnableSocietyOwnedVehicles = true
 Config.ResellPercentage           = 50
 Config.Locale                     = 'en'
 
