@@ -13,10 +13,10 @@ INSERT INTO `jobs` (name, label) VALUES
 ;
 
 INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_female) VALUES
-  ('dock',0,'recruit','Recruit',10,'{}','{}'),
+  ('dock',0,'recruit','Recrue',10,'{}','{}'),
   ('dock',1,'novice','Novice',25,'{}','{}'),
-  ('dock',2,'experienced','Experienced',40,'{}','{}'),
-  ('dock',3,'boss','Boss',0,'{}','{}')
+  ('dock',2,'experienced','Experimente',40,'{}','{}'),
+  ('dock',3,'boss','Patron',0,'{}','{}')
 ;
 
 CREATE TABLE dock_vehicles (
@@ -65,7 +65,7 @@ CREATE TABLE `dock_categories` (
 );
 
 INSERT INTO `dock_categories` (name, label) VALUES
-  ('dock','Boats')
+  ('dock','Bateaux')
 ;
 
 CREATE TABLE `dock` (
